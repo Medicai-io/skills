@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: upload-cd-folder-to-pacs
+expected_outcome: |
+  A script that walks the folder, keeps only files whose leading bytes identify them as DICOM (skipping dicomdir/dirfile), fetches the PACS base URL via pacs-host with the 32-hex workspace UID right before uploading, POSTs each file's raw bytes to <pacs>/instances, collects the distinct ParentStudy ids, calls POST /api/studies/initialize?workspaceUid=...&status=NEW&id=... for each, and prints the numeric Medicai study id(s) from the initialize response.

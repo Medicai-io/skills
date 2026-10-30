@@ -1,0 +1,36 @@
+{
+  "name": "medicai",
+  "displayName": "Medicai",
+  "version": "1.0.0",
+  "description": "Build medical imaging features on Medicai, the cloud PACS and DICOM viewer platform: embed a radiology-grade viewer (works before you have an account), upload CT, MRI, X-ray and ultrasound studies, organize cases with reports, share with patients and doctors, react to webhooks. For developers, clinics and health-tech teams.",
+  "author": {
+    "name": "Medicai",
+    "url": "https://www.medicai.io"
+  },
+  "homepage": "https://www.medicai.io/products/medicai-api",
+  "documentationUrl": "https://github.com/Medicai-io/skills/blob/main/skills/medicai-integration/SKILL.md",
+  "supportUrl": "https://github.com/Medicai-io/skills/issues",
+  "privacyPolicyUrl": "https://www.medicai.io/privacy-policy",
+  "termsOfServiceUrl": "https://www.medicai.io/terms-conditions",
+  "license": "MIT",
+  "keywords": [
+    "medicai",
+    "dicom",
+    "dicom-viewer",
+    "medical-imaging",
+    "radiology",
+    "pacs",
+    "dicomweb",
+    "ohif",
+    "ct",
+    "mri",
+    "x-ray",
+    "ultrasound",
+    "healthcare",
+    "telehealth",
+    "patient-portal",
+    "medical-images",
+    "imaging-api"
+  ],
+  "skills": "./skills/"
+}

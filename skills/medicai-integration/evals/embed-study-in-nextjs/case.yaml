@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: embed-study-in-nextjs
+expected_outcome: |
+  A server route that mints a short-lived access token from the stored refresh token, finds the study with the workspace-scoped metadata search, and hands the client only {workspaceId, studyIds (numeric), accessToken}; a client component that renders the /embed/viewer iframe, posts send-auth-data on iframe load, and re-posts with a fresh token before expiry. No secret or refresh token reaches the browser.

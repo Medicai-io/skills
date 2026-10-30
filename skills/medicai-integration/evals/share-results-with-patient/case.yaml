@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: share-results-with-patient
+expected_outcome: |
+  An endpoint that sets the case share link to PASSWORD_PROTECTED with an expiry (password from a source the patient knows or generated and returned to the clinic), optionally trims patient visibility, returns the share URL plus how the patient authenticates, and includes a one-time reminder that real patient data needs a paid plan with a BAA/DPA. It does not make the case PUBLIC by default and does not route the patient through the service account's token.

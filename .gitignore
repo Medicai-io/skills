@@ -1,0 +1,7 @@
+# eval runs and scratch
+skills/*/evals/results/
+*-workspace/
+.DS_Store
+node_modules/
+.env
+.env.*

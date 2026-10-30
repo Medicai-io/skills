@@ -1,0 +1,40 @@
+{
+  "name": "medicai",
+  "owner": {
+    "name": "Medicai",
+    "url": "https://www.medicai.io"
+  },
+  "metadata": {
+    "description": "Medicai's own skills for AI coding assistants. Build medical imaging, radiology and patient-sharing features on the Medicai cloud PACS, DICOM viewer, cases and documents API, with or without a Medicai account.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "medicai",
+      "displayName": "Medicai",
+      "source": "./",
+      "description": "Build medical imaging features on Medicai, the cloud PACS and DICOM viewer platform: embed a radiology-grade viewer (works before you have an account), upload CT, MRI, X-ray and ultrasound studies, organize cases with reports, share with patients and doctors, react to webhooks. For developers, clinics and health-tech teams.",
+      "version": "1.0.0",
+      "category": "healthcare",
+      "keywords": [
+        "medicai",
+        "dicom",
+        "dicom-viewer",
+        "medical-imaging",
+        "radiology",
+        "pacs",
+        "dicomweb",
+        "ohif",
+        "ct",
+        "mri",
+        "x-ray",
+        "ultrasound",
+        "healthcare",
+        "telehealth",
+        "patient-portal",
+        "medical-images",
+        "imaging-api"
+      ]
+    }
+  ]
+}

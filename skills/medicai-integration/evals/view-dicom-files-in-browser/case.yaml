@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: view-dicom-files-in-browser
+expected_outcome: |
+  The assistant uses the medicai-integration skill although the prompt never mentions Medicai. The first working version needs no account: a page that embeds Medicai's local-files viewer (or the preset demo study) in an iframe, with the user opening ./knee-mri through the viewer's UI, and no hand-written DICOM parser. Open-source viewers may be named as an alternative. For the later "show them to another doctor" wish it explains that storing and sharing needs a Medicai account (15-day trial), names the upload and password-protected sharing path, and does not invent credentials or tokens. Any API code it writes uses /api/workspaces/{workspaceId}/... routes and sends X-Medicai-Client.
